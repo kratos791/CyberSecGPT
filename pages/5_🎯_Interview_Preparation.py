@@ -109,7 +109,7 @@ Requirements:
                 box-shadow:0 4px 12px rgba(0,0,0,0.05);
                 border:1px solid #e5e7eb;
             ">
-            {response.replace('\n', '<br>')}
+            {formatted_response}
             </div>
             """, unsafe_allow_html=True)
 
